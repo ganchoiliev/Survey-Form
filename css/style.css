@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html, body {
+  background-color: #ff7373;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  min-width: 320px;
+}
+#form-outer {
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: solid #ff7373;
+  border-radius: 10px;
+}
+.favorite_sport,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+.radio, .checkbox {
+  position: relative;
+  left: -45px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+.dropdown {
+  height: 30px;
+  width: 130px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 20px;
+  border: 2px solid #ff7373;
+  border-radius: 10px;
+}
+.text-area { 
+  padding: 20px;
+  padding-bottom: 100px;
+}
+#submit {
+  background-color: #ce3d2b;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1.5em;
+  height: 35px;
+  width: 120px;
+  margin: 10px;
+  border: 0px solid;
+}
+strong {
+  color: red;
+}
+#submit:hover {
+  background-color: #a43122;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
